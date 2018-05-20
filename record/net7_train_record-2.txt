@@ -1,0 +1,427 @@
+这网络怎么设计的来着，我忘记了
+
+train param:
+model:  net7
+/home/sj/workspacce/vgg16/data
+train data num:  4876
+val data num:  168
+Epoch 0/29
+----------
+train Loss: 0.0125 Acc: 0.7367
+val Loss: 0.0163 Acc: 0.6667
+Val result:
+pos num: 168.0
+tp:  0.0
+fn:  56.0
+tn:  112.0
+fp:  0.0
+rec:  0.000000
+mdr:  1.000000
+fdr:  0.000000
+Epoch 1/29
+----------
+train Loss: 0.0116 Acc: 0.7482
+val Loss: 0.0166 Acc: 0.6667
+Val result:
+pos num: 168.0
+tp:  0.0
+fn:  56.0
+tn:  112.0
+fp:  0.0
+rec:  0.000000
+mdr:  1.000000
+fdr:  0.000000
+Epoch 2/29
+----------
+train Loss: 0.0109 Acc: 0.7482
+val Loss: 0.0141 Acc: 0.6667
+Val result:
+pos num: 168.0
+tp:  0.0
+fn:  56.0
+tn:  112.0
+fp:  0.0
+rec:  0.000000
+mdr:  1.000000
+fdr:  0.000000
+Epoch 3/29
+----------
+train Loss: 0.0093 Acc: 0.7514
+val Loss: 0.0155 Acc: 0.6488
+Val result:
+pos num: 168.0
+tp:  1.0
+fn:  55.0
+tn:  108.0
+fp:  4.0
+rec:  0.017857
+pre:  0.200000
+mdr:  0.982143
+fdr:  0.035714
+Epoch 4/29
+----------
+train Loss: 0.0071 Acc: 0.8316
+val Loss: 0.0203 Acc: 0.5774
+Val result:
+pos num: 168.0
+tp:  12.0
+fn:  44.0
+tn:  85.0
+fp:  27.0
+rec:  0.214286
+pre:  0.307692
+mdr:  0.785714
+fdr:  0.241071
+Epoch 5/29
+----------
+train Loss: 0.0055 Acc: 0.8952
+val Loss: 0.0274 Acc: 0.6607
+Val result:
+pos num: 168.0
+tp:  46.0
+fn:  10.0
+tn:  65.0
+fp:  47.0
+rec:  0.821429
+pre:  0.494624
+mdr:  0.178571
+fdr:  0.419643
+Epoch 6/29
+----------
+train Loss: 0.0038 Acc: 0.9348
+val Loss: 0.0384 Acc: 0.6786
+Val result:
+pos num: 168.0
+tp:  48.0
+fn:  8.0
+tn:  66.0
+fp:  46.0
+rec:  0.857143
+pre:  0.510638
+mdr:  0.142857
+fdr:  0.410714
+Epoch 7/29
+----------
+train Loss: 0.0022 Acc: 0.9754
+val Loss: 0.0311 Acc: 0.7679
+Val result:
+pos num: 168.0
+tp:  45.0
+fn:  11.0
+tn:  84.0
+fp:  28.0
+rec:  0.803571
+pre:  0.616438
+mdr:  0.196429
+fdr:  0.250000
+Epoch 8/29
+----------
+train Loss: 0.0017 Acc: 0.9807
+val Loss: 0.0334 Acc: 0.7262
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  75.0
+fp:  37.0
+rec:  0.839286
+pre:  0.559524
+mdr:  0.160714
+fdr:  0.330357
+Epoch 9/29
+----------
+train Loss: 0.0016 Acc: 0.9807
+val Loss: 0.0308 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  45.0
+fn:  11.0
+tn:  85.0
+fp:  27.0
+rec:  0.803571
+pre:  0.625000
+mdr:  0.196429
+fdr:  0.241071
+Epoch 10/29
+----------
+train Loss: 0.0015 Acc: 0.9828
+val Loss: 0.0265 Acc: 0.7976
+Val result:
+pos num: 168.0
+tp:  46.0
+fn:  10.0
+tn:  88.0
+fp:  24.0
+rec:  0.821429
+pre:  0.657143
+mdr:  0.178571
+fdr:  0.214286
+Epoch 11/29
+----------
+train Loss: 0.0014 Acc: 0.9834
+val Loss: 0.0300 Acc: 0.7917
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  86.0
+fp:  26.0
+rec:  0.839286
+pre:  0.643836
+mdr:  0.160714
+fdr:  0.232143
+Epoch 12/29
+----------
+train Loss: 0.0014 Acc: 0.9817
+val Loss: 0.0312 Acc: 0.8155
+Val result:
+pos num: 168.0
+tp:  45.0
+fn:  11.0
+tn:  92.0
+fp:  20.0
+rec:  0.803571
+pre:  0.692308
+mdr:  0.196429
+fdr:  0.178571
+Epoch 13/29
+----------
+train Loss: 0.0014 Acc: 0.9838
+val Loss: 0.0321 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 14/29
+----------
+train Loss: 0.0012 Acc: 0.9856
+val Loss: 0.0325 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 15/29
+----------
+train Loss: 0.0012 Acc: 0.9852
+val Loss: 0.0278 Acc: 0.7976
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  87.0
+fp:  25.0
+rec:  0.839286
+pre:  0.652778
+mdr:  0.160714
+fdr:  0.223214
+Epoch 16/29
+----------
+train Loss: 0.0012 Acc: 0.9850
+val Loss: 0.0332 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 17/29
+----------
+train Loss: 0.0012 Acc: 0.9852
+val Loss: 0.0291 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 18/29
+----------
+train Loss: 0.0012 Acc: 0.9863
+val Loss: 0.0343 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 19/29
+----------
+train Loss: 0.0012 Acc: 0.9852
+val Loss: 0.0295 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 20/29
+----------
+train Loss: 0.0012 Acc: 0.9863
+val Loss: 0.0344 Acc: 0.7857
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  85.0
+fp:  27.0
+rec:  0.839286
+pre:  0.635135
+mdr:  0.160714
+fdr:  0.241071
+Epoch 21/29
+----------
+train Loss: 0.0012 Acc: 0.9861
+val Loss: 0.0311 Acc: 0.7857
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  85.0
+fp:  27.0
+rec:  0.839286
+pre:  0.635135
+mdr:  0.160714
+fdr:  0.241071
+Epoch 22/29
+----------
+train Loss: 0.0011 Acc: 0.9865
+val Loss: 0.0327 Acc: 0.7857
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  85.0
+fp:  27.0
+rec:  0.839286
+pre:  0.635135
+mdr:  0.160714
+fdr:  0.241071
+Epoch 23/29
+----------
+train Loss: 0.0012 Acc: 0.9858
+val Loss: 0.0349 Acc: 0.7798
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  84.0
+fp:  28.0
+rec:  0.839286
+pre:  0.626667
+mdr:  0.160714
+fdr:  0.250000
+Epoch 24/29
+----------
+train Loss: 0.0011 Acc: 0.9861
+val Loss: 0.0326 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 25/29
+----------
+train Loss: 0.0012 Acc: 0.9861
+val Loss: 0.0302 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 26/29
+----------
+train Loss: 0.0012 Acc: 0.9867
+val Loss: 0.0308 Acc: 0.7738
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  83.0
+fp:  29.0
+rec:  0.839286
+pre:  0.618421
+mdr:  0.160714
+fdr:  0.258929
+Epoch 27/29
+----------
+train Loss: 0.0011 Acc: 0.9861
+val Loss: 0.0334 Acc: 0.7798
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  84.0
+fp:  28.0
+rec:  0.839286
+pre:  0.626667
+mdr:  0.160714
+fdr:  0.250000
+Epoch 28/29
+----------
+train Loss: 0.0012 Acc: 0.9854
+val Loss: 0.0281 Acc: 0.7798
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  84.0
+fp:  28.0
+rec:  0.839286
+pre:  0.626667
+mdr:  0.160714
+fdr:  0.250000
+Epoch 29/29
+----------
+train Loss: 0.0011 Acc: 0.9865
+val Loss: 0.0290 Acc: 0.7798
+Val result:
+pos num: 168.0
+tp:  47.0
+fn:  9.0
+tn:  84.0
+fp:  28.0
+rec:  0.839286
+pre:  0.626667
+mdr:  0.160714
+fdr:  0.250000
+Training complete in 5m 47s
+Best val Acc: 0.815476
+Best val Rec: 0.857143

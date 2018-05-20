@@ -1,0 +1,180 @@
+/home/sj/workspacce/vgg16/param/best_param.pth result:
+
+label  target  img_path
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (32).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (33).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (34).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (35).png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1 (36).png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1 (38).png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1 (39).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (44).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (45).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1 (56).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1176.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1177.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1178.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1179.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1180.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1181.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1182.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1183.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1184.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1185.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1186.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1187.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1188.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1189.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/1312.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1327.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/1335.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2273.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2274.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2275.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2276.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2277.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2278.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2279.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2281.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2514.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2515.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/2516.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/2517.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2518.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/2525.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/2541.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2542.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2550.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2636.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2637.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2638.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2639.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2640.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2641.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2642.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2643.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2644.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/2645.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2646.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2647.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2648.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2649.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/280.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/281.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/282.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/283.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/284.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/288.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/296.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/297.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_736_64.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_736_80.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_752_0.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_752_16.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_752_64.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_752_80.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_768_0.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/2_768_16.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_592_48.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_592_64.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_592_80.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_608_0.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_608_16.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_608_32.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_608_48.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_608_64.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_608_80.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/3_624_0.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/446.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/447.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/455.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/459.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/460.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/461.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/507.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/508.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/512.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/513.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/516.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/521.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/530.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/749.png
+  0    1        /home/sj/workspacce/vgg16/data/val/neg/757.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/758.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/760.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/761.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/762.png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (123).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (219).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (220).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (231).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (282).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (283).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (329).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (347).png
+  0    0        /home/sj/workspacce/vgg16/data/val/neg/neg (401).png
+  1    0        /home/sj/workspacce/vgg16/data/val/pos/1 (1)_320_60.jpg
+  1    0        /home/sj/workspacce/vgg16/data/val/pos/1 (1)_320_80.jpg
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (18).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (31).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (4).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (49).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (50).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (61).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (65).png
+  1    0        /home/sj/workspacce/vgg16/data/val/pos/1 (7).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1 (8).png
+  1    0        /home/sj/workspacce/vgg16/data/val/pos/1248.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/1249.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/2280.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/22801.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/228021.png
+  1    0        /home/sj/workspacce/vgg16/data/val/pos/2_752_48.png
+  1    0        /home/sj/workspacce/vgg16/data/val/pos/2_864_0.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/4_504_72.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/747.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/755.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00004_top_right_flip_180.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00005_top_right_180.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00006_bottom_right_90.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00007_top_right_270.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00007_top_right_xflip_90.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00008_top_right_yflip_270.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00015_top_middle.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00016_top_middle_xflip_90.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00018_top_middle_90.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00018_top_right_flip_270.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/I00018_top_right_yflip_180.png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/neg (445).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (160).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (161).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (21).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (22).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (237).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (238).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (246).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (25).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (250).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (3).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (30).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (358).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (359).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (362).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (367).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (371).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (381).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (447).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (49).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (6).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (78).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (84).png
+  1    1        /home/sj/workspacce/vgg16/data/val/pos/pos (86).png
+
+pos num: 168.0
+tp:  50.0
+fn:  6.0
+tn:  92.0
+fp:  6.0rec:  0.892857
+pre:  0.714286
+mdr:  0.107143
+fdr:  0.178571
