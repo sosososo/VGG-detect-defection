@@ -37,19 +37,19 @@ std = [0.229, 0.224, 0.225]
 
 weight = [ 1 , 3]
 
-epoch=25
+epoch=15
 
 
 model_param_location={
     'alexnet': '/home/sj/workspacce/vgg16/param/alexnet-owt-4df8aa71.pth',
     'vgg11':'/home/sj/workspacce/vgg16/param/vgg11-bbd30ac9.pth',
     'vgg11_bn':'/home/sj/workspacce/vgg16/param/vgg11_bn-6002323d.pth',
-    'vgg13': 'https://download.pytorch.org/models/vgg13-c768596a.pth',
-    'vgg16': 'https://download.pytorch.org/models/vgg16-397923af.pth',
-    'vgg19': 'https://download.pytorch.org/models/vgg19-dcbb9e9d.pth',
+    'vgg13': '/home/sj/workspacce/vgg16/param/vgg13-c768596a.pth',
+    'vgg16': '/home/sj/workspacce/vgg16/param/vgg16-397923af.pth',
+    'vgg19': '/home/sj/workspacce/vgg16/param/vgg19-dcbb9e9d.pth',
     'vgg13_bn': 'https://download.pytorch.org/models/vgg13_bn-abd245e5.pth',
     'vgg16_bn': 'https://download.pytorch.org/models/vgg16_bn-6c64b313.pth',
     'vgg19_bn': 'https://download.pytorch.org/models/vgg19_bn-c79401a0.pth',
 }
 
-model_type='vgg11'
+model_type='vgg19'

@@ -63,13 +63,19 @@ if __name__ == '__main__':
 
 
     if model_type == 'vgg16':
-        model_ft = vggmodel.vgg16(pretrained=False, num_classes=2)
+        model = vggmodel.vgg16(pretrained=False, num_classes=2)
     if model_type == 'vgg11':
-        model_ft = vggmodel.vgg11(pretrained=False, num_classes=2)
+        model = vggmodel.vgg11(pretrained=False, num_classes=2)
+    if model_type == 'vgg11_bn':
+        model = vggmodel.vgg11_bn(pretrained=True, num_classes=2)
     if model_type == 'vgg9':
-        model_ft = vggmodel.vgg9(pretrained=False, num_classes=2)
+        model = vggmodel.vgg9(pretrained=False, num_classes=2)
     if model_type == 'net9':
-        model_ft = mynet.net9(pretrained=False, num_classes=2)
+        model = mynet.net9(pretrained=False, num_classes=2)
+    if model_type == 'vgg13':
+        model = vggmodel.vgg13(pretrained=False, num_classes=2)
+    if model_type == 'vgg19':
+        model = vggmodel.vgg19(pretrained=False, num_classes=2)
 
     # num_ftrs = model_ft.fc.in_features
     # model_ft.fc = nn.Linear(num_ftrs, 2)
@@ -100,6 +106,8 @@ if __name__ == '__main__':
     f.write('{} result:\n\n'.format(os.path.join(param_dir,param_name)))
     f.write('target  pred  img_path\n')
     index = 0
+    print('start test ******')
+    since = time.time()
     for data in test_dataloders:
         # get the inputs
         inputs, labels = data
@@ -128,7 +136,17 @@ if __name__ == '__main__':
                     tn+=1.0
                 else:
                     fp+=1.0
+
+    time_end=time.time() -since
+    print('Testing complete in {:.0f}m {:.0f}s'.format(
+        time_end // 60, time_end % 60))
+    print('Testing complete in {} ms'.format(
+        (int(round(time_end * 1000)/index))))
     f.write('\n')
+    f.write('Testing complete in {:.0f}m {:.0f}s\n'.format(
+        time_end // 60, time_end % 60))
+    f.write('Testing complete in {} ms'.format(
+        (int(round(time_end * 1000)/index))))
     f.write('pos num: {}\ntp:  {}\nfn:  {}\ntn:  {}\nfp:  {}'.format((tp+fn+tn+fp),tp,fn,tn,fn))
     print('pos num: {}\ntp:  {}\nfn:  {}\ntn:  {}\nfp:  {}'.format((tp+fn+tn+fp),tp,fn,tn,fn))
     if tp+fn >0.0:

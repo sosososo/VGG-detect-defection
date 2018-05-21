@@ -15,14 +15,18 @@ import mynet
 import pickle
 
 from visualize import make_dot
-
+from tensorboardX import SummaryWriter
 
 def train_model(model, criterion, optimizer, scheduler, f , num_epochs=25):
+    writer =SummaryWriter('log')
     print('Start train ******')
     since = time.time()
     best_model_wts = model.state_dict()
     best_acc = 0.0
     best_rec=0.0
+    train_iter=1
+    val_iter=1
+    val_correct=0
     for epoch in range(num_epochs):
         print('Epoch {}/{}'.format(epoch, num_epochs - 1))
         print('-' * 10)
@@ -36,9 +40,11 @@ def train_model(model, criterion, optimizer, scheduler, f , num_epochs=25):
                 model.train(True)  # Set model to training mode
             else:
                 model.eval()  # Set model to evaluate mode
-
+            val_total=0
             running_loss = 0.0
             running_corrects = 0
+            val_correct = 0
+            train_loss=0.0
             tn=0.0
             fn=0.0
             tp=0.0
@@ -85,7 +91,27 @@ def train_model(model, criterion, optimizer, scheduler, f , num_epochs=25):
 
                 # statistics
                 running_loss += loss.data[0]
+                train_loss+=loss.data[0]
+                if phase == 'train' and train_iter%10==0:
+                    writer.add_scalar('{}-Train/Loss'.format(model_type),train_loss,train_iter)
+                    train_loss=0.0
+                if phase == 'train':
+                    train_iter+=1
+
                 running_corrects += torch.sum(preds == labels.data)
+                val_total+=batch_size
+                val_correct+=torch.sum(preds == labels.data)
+                if phase == 'val' and val_iter%5==0:
+                    if val_total!=0:
+                        val_correct
+                        temp_acc=val_correct/val_total
+                        val_total=0
+                        val_correct=0
+                        writer.add_scalar('{}-Val/Acc'.format(model_type),temp_acc,val_iter*2)
+                if phase =='val':
+                    val_iter+=1
+
+
             epoch_loss = running_loss / dataset_sizes[phase]
             epoch_acc = running_corrects / dataset_sizes[phase]
             print('{} Loss: {:.4f} Acc: {:.4f}'.format(
@@ -127,6 +153,8 @@ def train_model(model, criterion, optimizer, scheduler, f , num_epochs=25):
     print('Best val Acc: {:4f}'.format(best_acc))
     f.write('Best val Acc: {:4f}\n'.format(best_acc))
     f.write('Best val Rec: {:4f}\n'.format(best_rec))
+    writer.export_scalars_to_json("./all_scalars.json")
+    writer.close()
 
 
 
@@ -157,7 +185,7 @@ if __name__ == '__main__':
         'train': transforms.Compose([
             # transforms.RandomSizedCrop(224),
             transforms.Scale(vgg_input_size),
-            # transforms.RandomHorizontalFlip(),
+             transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize(mean, std)
 
@@ -174,7 +202,7 @@ if __name__ == '__main__':
         'train': transforms.Compose([
             # transforms.RandomSizedCrop(224),
             transforms.Scale(net_input_size),
-            # transforms.RandomHorizontalFlip(),
+            transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize(mean, std)
 
@@ -226,6 +254,12 @@ if __name__ == '__main__':
         model_ft = vggmodel.vgg16(pretrained=True, num_classes=2)
     if model_type == 'vgg11':
         model_ft = vggmodel.vgg11(pretrained=True, num_classes=2)
+    if model_type == 'vgg13':
+        model_ft = vggmodel.vgg13(pretrained=True, num_classes=2)
+    if model_type == 'vgg19':
+        model_ft = vggmodel.vgg19(pretrained=True, num_classes=2)
+    if model_type == 'vgg11_bn':
+        model_ft = vggmodel.vgg11_bn(pretrained=True, num_classes=2)
     if model_type == 'vgg9':
         model_ft = vggmodel.vgg9(pretrained=False, num_classes=2)
         model_ft.apply(weights_init)

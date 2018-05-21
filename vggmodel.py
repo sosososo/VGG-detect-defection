@@ -150,7 +150,14 @@ def vgg13(pretrained=False, **kwargs):
     """
     model = MYVGG(make_layers(cfg['B']), **kwargs)
     if pretrained:
-        model.load_state_dict(torch.load(model_param_location['vgg13']))
+        if model.num_classes!=1000:
+            pretrained_dick=torch.load(model_param_location['vgg13'])
+            model_dict=model.state_dict()
+            pretrained_dick={k:v for k,v in pretrained_dick.items() if k in model_dict}
+            model_dict.update(pretrained_dick)
+            model.load_state_dict(model_dict)
+        else:
+            model.load_state_dict(torch.load(model_param_location['vgg13']))
     return model
 
 
@@ -174,7 +181,14 @@ def vgg16(pretrained=False, **kwargs):
     """
     model = MYVGG(make_layers(cfg['D']), **kwargs)
     if pretrained:
-        model.load_state_dict(torch.load(model_param_location['vgg16']))
+        if model.num_classes!=1000:
+            pretrained_dick=torch.load(model_param_location['vgg16'])
+            model_dict=model.state_dict()
+            pretrained_dick={k:v for k,v in pretrained_dick.items() if k in model_dict}
+            model_dict.update(pretrained_dick)
+            model.load_state_dict(model_dict)
+        else:
+            model.load_state_dict(torch.load(model_param_location['vgg16']))
     return model
 
 
@@ -198,7 +212,14 @@ def vgg19(pretrained=False, **kwargs):
     """
     model = MYVGG(make_layers(cfg['E']), **kwargs)
     if pretrained:
-        model.load_state_dict(torch.load(model_param_location['vgg19']))
+        if model.num_classes!=1000:
+            pretrained_dick=torch.load(model_param_location['vgg19'])
+            model_dict=model.state_dict()
+            pretrained_dick={k:v for k,v in pretrained_dick.items() if k in model_dict}
+            model_dict.update(pretrained_dick)
+            model.load_state_dict(model_dict)
+        else:
+            model.load_state_dict(torch.load(model_param_location['vgg19']))
     return model
 
 
