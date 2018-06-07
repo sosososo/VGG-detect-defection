@@ -1,0 +1,14 @@
+package com.example
+
+public class callc
+{
+	
+public native void testmethod();
+
+sttic 
+{
+	System.loadLibrary("test");
+	
+}
+
+}
